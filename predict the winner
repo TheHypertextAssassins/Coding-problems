@@ -1,3 +1,5 @@
+
+// https://leetcode.com/problems/predict-the-winner/
 class Solution {
     public boolean PredictTheWinner(int[] nums) {
         return winner(nums, 0, nums.length-1,1)>=0;
